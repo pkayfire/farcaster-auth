@@ -4,7 +4,7 @@ import 'dotenv/config';
 
 const farcasterAddress = process.env.FARCASTER_AUTH_ACCOUNT_ADDRESS || "0x156d39254FAb024802da070F4D51CACa1ed48A17";
 const farcasterUsername = process.env.FARCASTER_AUTH_ACCOUNT_USERNAME || "farcasterauth";
-const notificationsApi = `https://api.farcaster.xyz/v1/notifications?address=${farcasterAddress}&per_page=10`;
+const notificationsApi = `https://api.farcaster.xyz/v1/notifications?address=${farcasterAddress}&per_page=50`;
 
 //function that parses a string and looks for the signature between the square brackets
 function parseSignature(message) {
