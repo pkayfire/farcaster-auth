@@ -1,5 +1,5 @@
 {
-  "name": "@zachterrell57/farcaster-auth",
+  "name": "@pkayfire/farcaster-auth",
   "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
@@ -9,13 +9,14 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zachterrell57/farcaster-auth.git"
+    "url": "git+https://github.com/pkayfire/farcaster-auth.git"
   },
   "author": {
-    "name": "Zach Terrell",
-    "email": "zachterrell@gmail.com"
+    "name": "Peter Kim",
+    "email": "peterkim45366@gmail.com"
   },
   "dependencies": {
+    "@pkayfire/farcaster-auth": "^1.0.3",
     "dotenv": "^16.0.1",
     "ethers": "^5.6.9",
     "got": "^12.2.0"
